@@ -335,13 +335,16 @@ main {
   color: #404bbf;
 }
 
+.adress-mob-menu {
+  margin-bottom: 48px;
+}
+
 .list-address-mobile {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
   flex-direction: column;
   gap: 24px;
-  margin-bottom: 48px;
 }
 
 .link-address-mobile {
@@ -535,7 +538,7 @@ main {
   text-align: center;
   color: #2e2f42;
   margin-bottom: 8px;
-  max-width: 288px;
+  /* max-width: 288px; */
 }
 
 .text-advantages {
@@ -556,6 +559,9 @@ main {
   }
   .item-advantages {
     max-width: 356px;
+  }
+  .subtitle-advantages {
+    text-align: left;
   }
 }
 
@@ -741,7 +747,7 @@ main {
 }
 
 .item-portfolio {
-  max-width: 288px;
+  width: 100%;
   cursor: pointer;
   overflow: hidden;
 
@@ -816,7 +822,7 @@ main {
   }
 
   .item-portfolio {
-    max-width: 356px;
+    width: calc((100% - 24px) / 2);
   }
 }
 @media screen and (min-width: 1158px) {
@@ -1019,10 +1025,10 @@ main {
 
 @media (min-width: 1158px) {
   .section-footer {
-    padding: 0;
+    padding: 100 px 0;
   }
   .footer-container {
-    padding: 100px 15px;
+    /* padding: 100px 15px; */
     flex-wrap: nowrap;
     gap: unset;
   }
