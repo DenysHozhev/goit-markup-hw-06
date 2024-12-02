@@ -302,6 +302,9 @@ main {
   top: 24px;
   right: 24px;
   cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .mobile-menu-nav {
